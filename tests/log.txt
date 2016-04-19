@@ -1,0 +1,24 @@
+TAP version 13
+ok 1 - ItbTest\BankAccountTest::testCanCreateObject
+ok 2 - ItbTest\BankAccountTest::testGetFirstNameAfterConstruction
+ok 3 - ItbTest\BankAccountTest::testGetSurnameAfterConstruction
+ok 4 - ItbTest\BankAccountTest::testOpeningBalanceAfterConstruction
+ok 5 - ItbTest\BankAccountTest::testSetGetFirstName
+ok 6 - ItbTest\BankAccountTest::testSetGetSurname
+ok 7 - ItbTest\BankAccountTest::testGetBalanceEqualsOpeningBalance
+ok 8 - ItbTest\BankAccountTest::testGetBalanceAfterDepositTen
+ok 9 - ItbTest\BankAccountTest::testGetBalanceAfterWithdrawTen
+ok 10 - ItbTest\BankAccountTest::testValidDepositReturnsNewBalance
+ok 11 - ItbTest\BankAccountTest::testNegativeDepositLeavesBalanceUnchanged
+ok 12 - ItbTest\BankAccountTest::testNegativeDepositSetsLastErrorToNegativeDeposit
+ok 13 - ItbTest\BankAccountTest::testNegativeDepositReturnsFalse
+ok 14 - ItbTest\BankAccountTest::testNegativeWithdrawalLeavesBalanceUnchanged
+ok 15 - ItbTest\BankAccountTest::testNegativeWithdrawalReturnsFalse
+ok 16 - ItbTest\BankAccountTest::testDefaultOverdraftLimitZero
+ok 17 - ItbTest\BankAccountTest::testMaxWithdrawalEqualsOverdraftLimitMinusBalance
+ok 18 - ItbTest\BankAccountTest::testSetGetOverdraftLimitValidNegativeValue
+ok 19 - ItbTest\BankAccountTest::testSetPositiveOverdraftLimitSetsLastErrorToPositiveOverdraftLimit
+ok 20 - ItbTest\BankAccountTest::testWithdrawMoreThanOverdraftLimitSetsLastErrorToInsufficientFunds
+ok 21 - ItbTest\BankAccountTest::testValidAnnualOverdraftInterest
+ok 22 - ItbTest\BankAccountTest::testZeroAnnualOverdraftInterestReturnsZero
+1..22
